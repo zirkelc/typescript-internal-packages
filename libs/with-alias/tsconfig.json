@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~with-alias/*": [
+        "src/*/index.ts"
+      ],
+    },
+  },
+  "include": [
+    "src"
+  ]
+}

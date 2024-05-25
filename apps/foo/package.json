@@ -1,0 +1,10 @@
+{
+  "name": "@repo/apps-foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "@repo/libs-with-alias": "workspace:*",
+    "@repo/libs-without-alias": "workspace:*"
+  }
+}
